@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Get email scam prediction</title>
+</head>
+<body>
+   <div>
+       <h3>the mail which you need to check whether it is a spam mail is <b>{{ mailName }}</b></h3>
+       <p>then answer is <span>{{ mailPrediction }}</span></p>
+   </div>
+</body>
+</html>

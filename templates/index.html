@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Email spam classifier</title>
+</head>
+<body>
+<form action="/mail" method="post">
+    <input type="text" name="mail" id="" class="input">
+    <button type="submit" class="btn-submit">Submit</button>
+</form>
+</body>
+</html>
